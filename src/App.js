@@ -1,12 +1,13 @@
-import './App.css';
+import React, { Component } from 'react'
+import Nav from './Components/Nav';
+import '../src/App.css'
 
-const App = () => (
-
-    <div className="App">
-      
-    </div>
-
-
-);
-
-export default App;
+export default class App extends Component {
+    render() {
+        return (
+            <div>
+                <Nav />
+            </div>
+        )
+    }
+}

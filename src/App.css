@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.banner {
+    width: 5000px;
+    background-color: #2a75ff;
+    height: 100px;
+}
+.banner__img{
+    width: 5%;
+    vertical-align: middle;
+}
